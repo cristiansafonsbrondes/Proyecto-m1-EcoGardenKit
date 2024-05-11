@@ -1,4 +1,160 @@
 * {
     padding: 0;
     margin: 0;
+    font: var(--font-principal);
 }
+
+/* Variables principales */
+:root {
+    --color-primary: rgba(137, 230, 214, 0.719);
+    --color-secundary: rgba(188, 247, 198, 0.322);
+    --font-principal: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --font-secundy: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.container  {
+
+}
+h1, h2, h3, h4 {
+    font: var(--font-principal);
+}
+
+p {
+    font: var(--font-secundy)
+}
+
+/* Estructura para HEADER */
+
+header {
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+}
+
+.header-logo img {
+    height: 115px;
+    margin-left: 30px;
+}
+
+.header-menu {
+    height: 115px;
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    margin-right: 30px;
+}
+
+.header-menu a {
+    color: green;
+    text-decoration: none;
+    padding: 20px;
+}
+.header-menu a:hover{
+    background-color: rgb(43, 148, 148);
+    color: azure;
+    border-radius: 10px;
+}
+
+.separador {
+    height: 25px;
+    background-color: var(--color-primary);
+}
+
+.separador img {
+    width: 100%;
+    height: 25px;
+}
+
+/* Estructura para Content */
+
+.content {
+    display: flex;
+    padding: 20px;
+    gap: 80px;
+    height: 300px;
+}
+
+.content-description {
+    width: 60%;
+}
+
+.content-description h1 {
+    font-size: 40px;
+    padding: 15px;
+}
+
+.content-description p,h4 {
+    text-align: justify;
+    padding: 20px;
+}
+
+.content-img {
+    display: flex;
+    width: 40%;
+    margin-right: 0;
+    gap: 90px;
+}
+
+/* Estructura Categorías */
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.Categorias {
+    background-color: var(--color-secundary)
+}
+.categoria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    text-align: center;
+    gap: 30px;
+    height: 400px;
+    align-items: center;
+}
+
+.Categorias-cuadros {
+    width: 350px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+   flex-direction: column;
+    border: 1px solid black;
+    background-color: white;
+}
+.Categorias-cuadros img {
+    max-width: 100%;
+    min-height: 85%;
+}
+
+.Categorias-cuadros p {
+    padding: 15px;
+    font-size: 20px;
+}
+
+.Categorias-cuadros p:hover{
+    background-color: rgb(43, 148, 148);
+    color: white;
+}
+
+/* Estructura Productos */
+
+
+
+
+
+
+
+
+
