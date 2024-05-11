@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGardenKit</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./Images/Logo.png" alt="Logo">
+            <nav>
+                <a href="#Categorias"><strong>Categoría</strong></a>
+                <a href="#Productos"><strong>Productos</strong></a>
+                <a href="#Mensajes"><strong>Mensajes</strong></a>
+                <a href="Contacto"><strong>Contacto</strong></a>
+            </nav>
+        </div>
+    </header>
+    <hr class="separador">
+    <main>
+        <section>
+            <h1><strong>Cultivo Hidropónico</strong></h1>
+            <p>Lo mejor de la naturaleza en tu casa</p>
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A delectus iusto quia exercitationem odio
+                tenetur ipsa aspernatur saepe quasi ea repellendus magnam obcaecati tempora, laudantium distinctio
+                sapiente debitis voluptatum pariatur? Voluptate temporibus quibusdam quasi, odit magni sit fugit saepe
+                dolore assumenda amet, nam consequuntur? Asperiores voluptatem accusamus exercitationem laudantium.
+                Consequatur.</P>
+            <img src="./Images/Kit presentación.png" alt="Kit presentación">
+        </section>
+        <section class="Categorias">
+            <h2><strong>Categorias</strong></h2>
+            <div>
+                <img src="./Images/Kit - completo.png" alt="categoria kit">
+            </div>
+            <p>Kits</p>
+            <div>
+                <img src="./Images/aromaticas-menta.jpg" alt="cat aromaticas">
+                <P>Aromáticas</P>
+            </div>
+            <div>
+                <img src="./Images/Lechuga.jpg" alt="Cat-Hortalizas">
+                <p>Hortalizas</p>
+            </div>
+        </section>
+        <section class="Productos">
+            <h2><Strong>Productos</Strong></h2>
+            <div>
+                <h3><b>Kits</b></h3>
+                <img src="./Images/Kit - completo.png" alt="kit completo">
+                <img src="./Images/Humus.png" alt="Humus">
+                <img src="./Images/Nutribase.png" alt="Nutribase">
+            </div>
+            <div>
+                <h3><b>Aromáticas, Culinarias y Medicinales</b></h3>
+                <img src="./Images/aromaticas-cilandro.jpg" alt="Cilantro">
+                <img src="./Images/aromaticas-menta2.jpg" alt="Menta">
+                <img src="./Images/aromaticas-salvia.jpg" alt="Salvia">
+            </div>
+            <div>
+                <h3><b>Hortalizas</b></h3>
+                <img src="./Images/Lechuga.jpg" alt="Lechuga">
+                <img src="./Images/tomates cherry.jpg" alt="Tomate Cherry">
+                <img src="./Images/pimientos.avif" alt="Pimientos">
+            </div>
+        </section>
+        <section>
+            <h2>Formulario de Contacto</h2>
+
+            <form action="/submit_formulario.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo"><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Email"><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" cols="50" required></textarea><br><br>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <footer>
+            <div>
+                <h4>Contacto</h4>
+                <P><i class='bx bx-envelope'></i> ecogardenkit@gmail.com </P>
+                <p><i class='bx bx-phone'></i> 11 2555 2433</p>
+            </div>
+            <div>
+                <i class='bx bxl-whatsapp'></i>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
