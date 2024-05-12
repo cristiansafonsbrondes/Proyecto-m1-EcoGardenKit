@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <header>
+    <header> <!-- Emcabezado (logo + 4 accesos) -->
         <div class="header-logo">
             <img src="./Images/Logo-2.png" alt="Logo">
         </div>
@@ -18,17 +18,17 @@
             <a href="#Categorias"><strong>Categoría</strong></a>
             <a href="#Productos"><strong>Productos</strong></a>
             <a href="#Mensajes"><strong>Mensajes</strong></a>
-            <a href="Contacto"><strong>Contacto</strong></a>
+            <a href="#Contacto"><strong>Contacto</strong></a>
         </nav>
     </header>
-    <div class="separador">
+    <div class="separador"> <!-- Separador de plantas -->
         <img src="./Images/separador-2.png" alt="">
     </div>
-    <main>
-        <section class="content">
+    <main><!-- Contenido de la página -->
+        <section class="content"><!-- Seccion 1: Contenido -->
             <div class="content-description">
                 <h1><strong>Cultivo Hidropónico</strong></h1>
-                <h4>Lo mejor de la naturaleza en tu casa</h4>
+                <h4>Convivir con la naturaleza</h4>
                 <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A delectus iusto quia exercitationem
                     odio
                     tenetur ipsa aspernatur saepe quasi ea repellendus magnam obcaecati tempora, laudantium
@@ -47,73 +47,153 @@
         <div class="separador">
             <img src="./Images/separador-2.png" alt="">
         </div>
-        <section class="Categorias">
+        <section id="Categorias" Categorias"><!-- Seccion 2: Categorias -->
             <h2><strong>Categorías</strong></h2>
             <div class="categoria-container">
                 <div class="Categorias-cuadros">
-                    <img id="kits"  src="./Images/Kit - completo.png" alt="categoria kit">
-                    <p>Kits</p>
+                    <img id="kits" src="./Images/Kit - completo.png" alt="categoria kit">
+                    <p><a href="#KITS"><b>Kits</b></a></p>
                 </div>
                 <div class="Categorias-cuadros">
                     <img src="./Images/aromaticas-menta.jpg" alt="cat aromaticas">
-                    <P>Aromáticas</P>
+                    <p><a href="#Aromaticas">Aromaticas, Culinarias y Medicinales</a></p>
                 </div>
                 <div class="Categorias-cuadros">
                     <img src="./Images/Lechuga.jpg" alt="Cat-Hortalizas">
-                    <p>Hortalizas</p>
+                    <p><a href="#Hortalizas">Hortalizas</a></p>
                 </div>
             </div>
         </section>
-        <div class="separador">
-            <img src="./Images/separador-2.png" alt="">
+        <div class="separador"><!-- Separador de plantas -->
+            <img src="./Images/separador-2.png" alt="Separador- imagen de plantas">
         </div>
-        <section class="Productos">
+        <section id="Productos" class="Product"><!-- Seccion 3: Productos -->
             <h2><Strong>Productos</Strong></h2>
-            <div>
-                <h3><b>Kits</b></h3>
-                <img src="./Images/Kit - completo.png" alt="kit completo">
-                <img src="./Images/Humus.png" alt="Humus">
-                <img src="./Images/Nutribase.png" alt="Nutribase">
+            <div class="Product-Title">
+                <h3 id="KITS"><b> KITS</b></h3>
             </div>
-            <div>
-                <h3><b>Aromáticas, Culinarias y Medicinales</b></h3>
-                <img src="./Images/aromaticas-cilandro.jpg" alt="Cilantro">
-                <img src="./Images/aromaticas-menta2.jpg" alt="Menta">
-                <img src="./Images/aromaticas-salvia.jpg" alt="Salvia">
+            <div class="Product-container-items">
+                <div class="product-items">
+                    <img src="./Images/Kit - completo.png" alt="kit completo">
+                    <div class="product-items-datos">
+                        <p>Kit completo</p>
+                        <P>ARS 20.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="product-items">
+                    <img src="./Images/Nutribase.png" alt="Nutribase">
+                    <div class="product-items-datos">
+                        <p>Nutribase</p>
+                        <P>ARS 10.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="product-items">
+                    <img src="./Images/Humus.png" alt="Humus">
+                    <div class="product-items-datos">
+                        <p>Humus</p>
+                        <P>ARS 8.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
             </div>
-            <div>
-                <h3><b>Hortalizas</b></h3>
-                <img src="./Images/Lechuga.jpg" alt="Lechuga">
-                <img src="./Images/tomates cherry.jpg" alt="Tomate Cherry">
-                <img src="./Images/pimientos.avif" alt="Pimientos">
+            <div class="Product-Title">
+                <h3 id="Aromaticas"><b>AROMATICAS, CULINARIAS Y MEDICINALES</b></h3>
+            </div>
+            <div class="Product-container-items">
+                <div class="product-items">
+                    <img src="./Images/aromaticas-cilandro.jpg" alt="Cilantro">
+                    <div class="product-items-datos">
+                        <p>Cilantro</p>
+                        <P>ARS 8.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="product-items">
+                    <img src="./Images/aromaticas-menta2.jpg" alt="Menta">
+                    <div class="product-items-datos">
+                        <p>Menta</p>
+                        <P>ARS 8.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="product-items">
+                    <img src="./Images/aromaticas-salvia.jpg" alt="Salvia">
+                    <div class="product-items-datos">
+                        <p>Salvia</p>
+                        <P>ARS 8.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Product-Title">
+                <h3 id="Hortalizas"><b>HORTALIZAS</b></h3>
+            </div>
+            <div class="Product-container-items">
+                <div class="product-items">
+                    <img src="./Images/Lechuga.jpg" alt="Lechuga">
+                    <div class="product-items-datos">
+                        <p>Lechuga</p>
+                        <P>ARS 20.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="product-items">
+                    <img src="./Images/tomates cherry.jpg" alt="Tomate Cherry">
+                    <div class="product-items-datos">
+                        <p>Tomate Cherry</p>
+                        <P>ARS 10.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+                <div class="product-items">
+                    <img src="./Images/pimientos.avif" alt="Pimientos">
+                    <div class="product-items-datos">
+                        <p>Pimientos</p>
+                        <P>ARS 8.000</P>
+                        <button id="button">Comprar</button>
+                    </div>
+                </div>
+            </div>
             </div>
         </section>
-        <section>
+        <hr>
+        <section id="Mensajes" class="Formulario">
             <h2>Formulario de Contacto</h2>
+            <div class="Container-form">
+                <form action="/submit_formulario.php" method="post">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo"><br><br>
 
-            <form action="/submit_formulario.php" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required placeholder="Nombre completo"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="your@email.com"><br><br>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required placeholder="Email"><br><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="60" required
+                        placeholder="Deja tu consulta aquí"></textarea><br><br>
 
-                <label for="mensaje">Mensaje:</label><br>
-                <textarea id="mensaje" name="mensaje" rows="5" cols="50" required></textarea><br><br>
-
-                <input type="submit" value="Enviar">
-            </form>
+                    <input id="Send-button" type="submit" value="Enviar">
+                </form>
+            </div>
         </section>
     </main>
+    <section>
+        <div class="separador_oblicuo"></div>
+    </section>
     <footer>
-        <div>
+        <div class="Logo-2">
+            <img src="./Images/Logo-2.png" alt="">
+        </div>
+        <div id="Contacto" class="Contacto">
             <h4>Contacto</h4>
             <P><i class='bx bx-envelope'></i> ecogardenkit@gmail.com </P>
             <p><i class='bx bx-phone'></i> 11 2555 2433</p>
         </div>
-        <div>
-            <i class='bx bxl-whatsapp'></i>
+        <div class="Whats">
+            <img  class="logoW" src="./Images/whats-img-sf.png" alt="Logo de Whatsapp">
         </div>
+
     </footer>
 </body>
 
