@@ -85,7 +85,7 @@ header {
     display: flex;
     padding: 20px;
     gap: 80px;
-    height: 300px;
+    height: 450px;
     background-color: white;
 }
 
@@ -102,25 +102,27 @@ header {
 h4 {
     text-align: justify;
     padding: 20px;
+    font-size: 20px;
 }
 
 .content-img {
     display: flex;
     width: 40%;
-    margin-right: 0;
-    gap: 90px;
+    margin-right: 0px;
+    gap: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /*-----------------------------------------------------*/
 /* Estructura Categorías */
 
-h2 {
+#Categorias h2 {
     font-size: 35px;
     text-align: center;
     padding-top: 30px;
 }
 
-.Categorias {
+#Categorias {
     background-color: var(--color-secundary)
 }
 
@@ -132,6 +134,8 @@ h2 {
     gap: 30px;
     height: 400px;
     align-items: center;
+    margin-left: 15px;
+    height: 550px;
 }
 
 .Categorias-cuadros {
@@ -143,6 +147,7 @@ h2 {
     flex-direction: column;
     border: 1px solid black;
     background-color: white;
+    box-shadow: -4px 3px 33px 0px rgba(0, 0, 0, 0.75);
 }
 
 .Categorias-cuadros img {
@@ -174,8 +179,15 @@ h2 {
     background-color: rgb(212, 226, 226, 0.425)
 }
 
+.Product h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+}
+
 .Product-Title h3 {
     padding: 10px;
+    margin-left: 15px;
 
 }
 
@@ -185,6 +197,7 @@ h2 {
     height: 320px;
     display: grid;
     grid-template-columns: auto auto auto;
+    margin-left: 15px;
     /*box-shadow: -4px 3px 33px 0px rgba(0,0,0,0.75);*/
 }
 
@@ -251,7 +264,9 @@ hr {
 }
 
 .Formulario h2 {
-    padding-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
 }
 
 .Formulario .Container-form {
@@ -259,6 +274,7 @@ hr {
     height: 350px;
     display: flex;
     justify-content: center;
+
 }
 
 form {
@@ -266,6 +282,7 @@ form {
     height: 300px;
     padding: 20px 30px;
     background-color: rgba(138, 159, 172, 0.349);
+    box-shadow: -2px 2px 20px 0px rgba(0, 0, 0, 0.75);
 }
 
 input,
@@ -326,19 +343,35 @@ footer .Contacto {
     margin-left: 500px;
 }
 
-footer .Contacto p {
+footer .Contacto a {
     padding-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: rgb(21, 132, 68);
 }
 
+/* ------------------------------- */
+/* Whatsapp buttom */
+
 footer .Whats {
-    width: 30px;
-    height: 30px;
+    width: 0px;
+    height: 0px;
 }
 
 footer .Whats .logoW {
-    width: 50px;
-    height: 50px;
+    width: 47px;
+    height: 40px;
     position: fixed;
-    top: 380px;
-    right: 30px
+    top: 400px;
+    right: 8px
 }
+
+footer .Whats .logoW:hover {
+    cursor: pointer;
+    box-shadow: -2px 2px 20px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+/* --------------------------------------------------- */
+/* RESPONSIVE DESING */
