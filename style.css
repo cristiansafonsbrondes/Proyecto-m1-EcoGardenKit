@@ -185,6 +185,7 @@ h2 {
     height: 320px;
     display: grid;
     grid-template-columns: auto auto auto;
+    /*box-shadow: -4px 3px 33px 0px rgba(0,0,0,0.75);*/
 }
 
 .Product-container-items .product-items {
@@ -195,6 +196,7 @@ h2 {
     display: flex;
     justify-content: left;
     align-items: center;
+    box-shadow: -4px 3px 33px 0px rgba(0, 0, 0, 0.75);
 }
 
 .Product-container-items .product-items img {
